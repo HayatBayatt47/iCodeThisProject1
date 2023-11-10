@@ -1,0 +1,128 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    background-color: #282828;
+    width: 370px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(10, 10, 10);
+
+}
+.p1{
+    font-size: 1.5rex;
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+.p2{
+    font-size: 1.5rex;
+    color: #282828;
+    position: absolute;
+
+}
+.p3{
+    font-size: 1.5rem;
+    color: #282828;
+    position: absolute;
+    left: 10px;
+    bottom: 0.5px;
+}
+.profile {
+    flex-wrap: 1;
+    position: relative;
+    left: 20px;
+}
+
+.profile1 {
+    flex-wrap: 1;
+    position: relative;
+    left: 15px;
+}
+
+.profile2 {
+    flex-wrap: 1;
+    position: relative;
+    left: 20px;
+}
+
+.img {
+
+    background-image: url("/images/profile.jpg");
+    background-size: cover;
+    width: 70px;
+    height: 85px;
+    border-radius: 0px 20px 20px 20px;
+    position: absolute;
+    right: 140px;
+}
+.img1 {
+
+    background-image: url("/images/profile1.jpg");
+    background-size: cover;
+    width: 70px;
+    height: 85px;
+    border-radius: 0px 20px 20px 20px;
+    position: absolute;
+    right: 125px;
+}
+.img2 {
+
+    background-image: url("/images/profile2.jpg");
+    background-size: cover;
+    width: 70px;
+    height: 85px;
+    border-radius: 0px 20px 20px 20px;
+    position: absolute;
+    right: 130px;
+}
+.messageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 30px;
+    border: 1px solid #f7705d;
+    border-radius: 30px 0px 0px 30px;
+    position: relative;
+    top: 5px;
+}
+.messageImg{
+    background-image: url("/images/message.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+}
+.followBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7705d;
+    width: 95px;
+    height: 30px;
+    border-radius: 0px 30px 30px 0px;
+    color: #282828;
+    position: absolute;
+    left: 100px;
+    bottom: -5px;
+}
+h3 {
+    color: white;
+}
+
+h6 {
+    color: #565656;
+}
